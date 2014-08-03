@@ -1,0 +1,8 @@
+build
+dist
+msrx.egg-info
+MANIFEST
+*.swp
+*~
+*.pyc
+__pycache__
