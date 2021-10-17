@@ -64,7 +64,7 @@ _DEF_TYPE = 'iso'
 class ISO7811(object):
 
   _PARAM_MAP = {1: (0x20, 7), 2: (0x30, 5), 3: (0x30, 5)}
-  _CODEC_NAMES = set(['iso7811-t%d' % i for i in _PARAM_MAP])
+  _CODEC_NAMES = set(['iso7811_t%d' % i for i in _PARAM_MAP])
 
   @classmethod
   def codec_search(cls, name):
@@ -223,8 +223,8 @@ _DATA_CONV = {
     (lambda d, _: codecs.encode(d, 'hex_codec')),
   ('hex', 'raw'): (lambda d, _: codecs.decode(d, 'hex_codec')),
   ('raw', 'iso'):
-    (lambda d, t: codecs.encode(d, 'iso7811-t%d' % t)),
-  ('iso', 'raw'): (lambda d, t: codecs.decode(d, 'iso7811-t%d' % t))
+    (lambda d, t: codecs.encode(d, 'iso7811_t%d' % t)),
+  ('iso', 'raw'): (lambda d, t: codecs.decode(d, 'iso7811_t%d' % t))
 }
 
 _DTYPE_VFY = {
