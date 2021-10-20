@@ -19,6 +19,9 @@ Installation
 Usage
 =====
 
+Ensure you've plugged a 9V supply to the power injector on the USB cable
+before continuing.
+
 To read a card's data, run the following and swipe a card:
 
     $ msrx read
