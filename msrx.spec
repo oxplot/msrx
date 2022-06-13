@@ -8,7 +8,7 @@ Release:        %{release}
 Summary:        MSR605 library and command line tools
 
 Group:          Development/Libraries
-License:        GPLv3
+License:        BSD
 Source0:        %{name}-%{version}.tar.gz
 Vendor:         Mansour Behabadi <mansour@oxplot.com>
 URL:            https://github.com/oxplot/msrx

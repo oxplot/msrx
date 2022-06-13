@@ -1,18 +1,5 @@
 # msrx.py - Library for talking with MSR605 magnetic card reader/writer
 # Copyright (C) 2022  Mansour Behabadi <mansour@oxplot.com>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 """Library for talking with MSR605 magnetic card reader/writer"""
 
@@ -43,17 +30,12 @@ __author__ = 'Mansour Behabadi'
 __copyright__ = 'Copyright (C) 2014 Mansour Behabadi'
 __credits__ = ['Mansour Behabadi']
 __email__ = 'mansour@oxplot.com'
-__license__ = 'GPLv3'
+__license__ = 'BSD'
 __maintainer__ = 'Mansour Behabadi'
 __version__ = '0.2'
 __description__ = 'Library and command line utils to use MSR605 magnetic card reader/writer'
 __progname__ = 'msrx'
-__verinfo__ = """%s version %s
-%s
-This program is free software; you may redistribute it under the terms of the GNU General Public License version 3 or (at your options) any later version.
-This program comes with absolutely no warranty.""" % (
-  __progname__, __version__, __copyright__
-)
+__verinfo__ = """%s version %s""" % (__progname__, __version__)
 
 _TRACK_CNT = 3
 _DEF_DEV = '/dev/ttyUSB0'

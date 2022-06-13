@@ -45,7 +45,7 @@ setup(
     'Environment :: Console',
     'Intended Audience :: Developers',
     'Intended Audience :: End Users/Desktop',
-    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'License :: OSI Approved :: BSD License',
     'Natural Language :: English',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3.9',
