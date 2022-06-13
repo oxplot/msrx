@@ -1,5 +1,5 @@
 # msrx.py - Library for talking with MSR605 magnetic card reader/writer
-# Copyright (C) 2014  Mansour Behabadi <mansour@oxplot.com>
+# Copyright (C) 2022  Mansour Behabadi <mansour@oxplot.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
