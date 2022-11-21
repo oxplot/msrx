@@ -27,7 +27,7 @@ except NameError:
   biter = lambda x: (to_byte(i) for i in x)
 
 __author__ = 'Mansour Behabadi'
-__copyright__ = 'Copyright (C) 2014 Mansour Behabadi'
+__copyright__ = 'Copyright (C) 2022 Mansour Behabadi'
 __credits__ = ['Mansour Behabadi']
 __email__ = 'mansour@oxplot.com'
 __license__ = 'BSD'
